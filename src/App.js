@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Kitchen from './Kitchen'
+import Bedroom1 from './Bedroom1';
+import FullBath from './FullBath';
+import Bedroom2 from './Bedroom2';
+import LivingRoom from './LivingRoom';
+import HalfBath from './HalfBath';
+import Bedroom3 from './Bedroom3';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Bedroom1 />
+    <Kitchen />
+    <FullBath />
+    <Bedroom2 />
+    <LivingRoom />
+    <HalfBath />
+    <Bedroom3 />
     </div>
   );
 }
